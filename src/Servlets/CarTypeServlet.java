@@ -47,6 +47,7 @@ public class CarTypeServlet extends HttpServlet {
         {
             CarType c = new CarType();
             c.setCar_name(rs.getString("car_name"));
+            c.setCar_picture(rs.getString("car_picture"));
             c.setCar_brand(rs.getString("car_brand"));
             c.setCar_type(rs.getString("car_type"));
             c.setDaily_rent(Float.parseFloat(rs.getString("daily_rent")));

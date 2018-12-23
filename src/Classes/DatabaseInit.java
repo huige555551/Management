@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DatabaseInit {
     private static final String url = "jdbc:mysql://localhost:3306/";
     private static final String username = "root";
-    private static final String password = "Intheforest37";
+    private static final String password = "root";
 
     public static Connection getConnection(){
         Connection connection = null;

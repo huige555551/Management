@@ -28,8 +28,8 @@ public class LoginServlet extends HttpServlet {
         String manager_pwd = null;
 
         try {
-            Connection conn= DatabaseInit.getConnection();
-            String sql="select * from car_rent.manager where manager_id = ?;";
+            Connection conn = DatabaseInit.getConnection();
+            String sql = "select * from car.manager where manager_id = ?;";
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, name);
             ResultSet rs = ps.executeQuery();

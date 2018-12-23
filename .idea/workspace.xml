@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Management:war exploded" />
+      <artifact name="Management:war exploded2" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c079a821-b035-4b32-a2c3-fcd25da320de" name="Default Changelist" comment="添加违约记录处理功能，以及一些小改动。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/ssh1.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Management.iml" afterPath="$PROJECT_DIR$/Management.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/Bac.java" afterPath="$PROJECT_DIR$/src/Classes/Bac.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/Car.java" afterPath="$PROJECT_DIR$/src/Classes/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/CarType.java" afterPath="$PROJECT_DIR$/src/Classes/CarType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/DatabaseInit.java" afterPath="$PROJECT_DIR$/src/Classes/DatabaseInit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/Order.java" afterPath="$PROJECT_DIR$/src/Classes/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/Peccancy.java" afterPath="$PROJECT_DIR$/src/Classes/Peccancy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/Shop.java" afterPath="$PROJECT_DIR$/src/Classes/Shop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/User.java" afterPath="$PROJECT_DIR$/src/Classes/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddBacServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddBacServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddCarServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddCarServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddOrderServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddOrderServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddPeccancyServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddPeccancyServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddShopServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddShopServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AddUserServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/AddUserServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/AuthFilter.java" afterPath="$PROJECT_DIR$/src/Servlets/AuthFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/BacServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/BacServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/CarServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/CarServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/CarTypeServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/CarTypeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeleteBacServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeleteBacServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeleteCarServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeleteCarServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeleteCarTypeServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeleteCarTypeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeleteOrderServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeleteOrderServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeletePeccancyServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeletePeccancyServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeleteShopServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeleteShopServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/DeleteUserServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/DeleteUserServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/LoginServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/LoginServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/OrderServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/OrderServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/PeccancyServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/PeccancyServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchBacServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchBacServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchCarServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchCarServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchCarTypeServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchCarTypeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchOrderServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchOrderServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchPeccancyServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchPeccancyServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchShopServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchShopServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/SearchUserServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/SearchUserServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/ShopServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/ShopServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdateBacServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdateBacServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdateCarServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdateCarServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdateCarTypeServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdateCarTypeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdateOrderServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdateOrderServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdatePeccancyServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdatePeccancyServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdateShopServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdateShopServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UpdateUserServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UpdateUserServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Servlets/UserServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/UserServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/accident_management.html" afterPath="$PROJECT_DIR$/web/accident_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bac_management.html" afterPath="$PROJECT_DIR$/web/bac_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/car_management.html" afterPath="$PROJECT_DIR$/web/car_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/car_type_management.html" afterPath="$PROJECT_DIR$/web/car_type_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/html.css" afterPath="$PROJECT_DIR$/web/css/html.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/login.css" afterPath="$PROJECT_DIR$/web/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/bac_management.js" afterPath="$PROJECT_DIR$/web/js/bac_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/car_management.js" afterPath="$PROJECT_DIR$/web/js/car_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/car_type_management.js" afterPath="$PROJECT_DIR$/web/js/car_type_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/order_management.js" afterPath="$PROJECT_DIR$/web/js/order_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/peccancy_management.js" afterPath="$PROJECT_DIR$/web/js/peccancy_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/shop_management.js" afterPath="$PROJECT_DIR$/web/js/shop_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/user_management.js" afterPath="$PROJECT_DIR$/web/js/user_management.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.html" afterPath="$PROJECT_DIR$/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/order_management.html" afterPath="$PROJECT_DIR$/web/order_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/peccancy_management.html" afterPath="$PROJECT_DIR$/web/peccancy_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop_management.html" afterPath="$PROJECT_DIR$/web/shop_management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user_management.html" afterPath="$PROJECT_DIR$/web/user_management.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Management$login_html.ic" NAME="login.html Coverage Results" MODIFIED="1545466879026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1133367876">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MF" value="1" />
+          <entry key="car" value="1" />
+          <entry key="car_info" value="1" />
+          <entry key="carlnfo" value="1" />
+          <entry key="css" value="10" />
+          <entry key="html" value="56" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="171" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="1" />
+          <entry key="shop" value="1" />
+          <entry key="sql" value="2" />
+          <entry key="user_info" value="7" />
+          <entry key="user_management" value="1" />
+          <entry key="userinfo" value="3" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="10" />
+          <entry key="Database Element" value="14" />
+          <entry key="HTML" value="57" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="171" />
+          <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Manifest" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="91" />
+          <entry key="css" value="537" />
+          <entry key="dummy" value="4" />
+          <entry key="html" value="6458" />
+          <entry key="java" value="6075" />
+          <entry key="sql" value="7" />
+          <entry key="txt" value="60" />
+          <entry key="xml" value="638" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="537" />
+          <entry key="HTML" value="6458" />
+          <entry key="JAVA" value="6075" />
+          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="SQL" value="7" />
+          <entry key="Scratch" value="91" />
+          <entry key="XML" value="638" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1984335915">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="31" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="177" />
+          <entry key="order_info" value="1" />
+          <entry key="shop" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Database Element" value="2" />
+          <entry key="HTML" value="31" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="177" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="649" />
+          <entry key="java" value="317" />
+          <entry key="sql" value="7" />
+          <entry key="txt" value="92" />
+          <entry key="xml" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="649" />
+          <entry key="JAVA" value="316" />
+          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="SQL" value="8" />
+          <entry key="XML" value="37" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1481750995">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="accident" value="1" />
+          <entry key="bac" value="2" />
+          <entry key="car" value="1" />
+          <entry key="car_type" value="2" />
+          <entry key="css" value="3" />
+          <entry key="html" value="57" />
+          <entry key="java" value="86" />
+          <entry key="js" value="27" />
+          <entry key="order" value="1" />
+          <entry key="order_info" value="3" />
+          <entry key="shop" value="1" />
+          <entry key="ts" value="1" />
+          <entry key="user" value="1" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="Database Element" value="12" />
+          <entry key="HTML" value="57" />
+          <entry key="JAVA" value="86" />
+          <entry key="JavaScript" value="27" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="11" />
+          <entry key="css" value="8" />
+          <entry key="dummy" value="7" />
+          <entry key="html" value="5202" />
+          <entry key="java" value="1080" />
+          <entry key="js" value="4006" />
+          <entry key="sql" value="74" />
+          <entry key="txt" value="564" />
+          <entry key="xml" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="5202" />
+          <entry key="JAVA" value="1080" />
+          <entry key="JavaScript" value="4006" />
+          <entry key="PLAIN_TEXT" value="571" />
+          <entry key="SQL" value="74" />
+          <entry key="Scratch" value="11" />
+          <entry key="XML" value="37" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="395459396">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="html" value="65" />
+          <entry key="java" value="77" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="22" />
+          <entry key="jsp" value="1" />
+          <entry key="png" value="4" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="65" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="77" />
+          <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="22" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="html" value="625" />
+          <entry key="java" value="887" />
+          <entry key="js" value="847" />
+          <entry key="xml" value="161" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="615" />
+          <entry key="JAVA" value="887" />
+          <entry key="JavaScript" value="847" />
+          <entry key="SQL" value="10" />
+          <entry key="XML" value="161" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Management" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="car_type_management.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/car_type_management.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-234">
+              <caret line="78" column="50" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCarServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servlets/AddCarServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1544169832000" expanded="true" signature="1292:1394" ph="insert into car.car... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="car_type_management.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/car_type_management.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="383" column="35" lean-forward="true" selection-start-line="383" selection-start-column="35" selection-end-line="383" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_management.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/order_management.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6192">
+              <caret line="429" column="1" lean-forward="true" selection-start-line="429" selection-start-column="1" selection-end-line="429" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarTypeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servlets/CarTypeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1545474198000" expanded="true" signature="1035:1079" ph="select * fro... car_type" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accident_management.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/accident_management.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="102" column="38" lean-forward="false" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>order</find>
+      <find>钱包</find>
+      <find>getFormatTime</find>
+      <find>datetimepicker</find>
+      <find>send</find>
+      <find>image</find>
+      <find>imgData</find>
+      <find>add_car</find>
+      <find>photo</find>
+      <find>root</find>
+      <find>request</find>
+      <find>提交</find>
+      <find>sendPhoto</find>
+      <find>addCarType</find>
+      <find>#photo</find>
+      <find>cropper</find>
+      <find>user-photo</find>
+      <find>id=&quot;photo</find>
+      <find>table</find>
+      <find>车辆图片</find>
+      <find>ajax</find>
+      <find>initTable</find>
+      <find>vadidateModal</find>
+      <find>确认添加</find>
+      <find>&lt;img</find>
+      <find>validate</find>
+      <find>car_picture</find>
+      <find>300</find>
+      <find>getBase64Image</find>
+      <find>add_car_type_form</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>userInfo</replace>
+      <replace>managementDiv</replace>
+      <replace>place</replace>
+      <replace>Order</replace>
+      <replace>plate</replace>
+      <replace>汽车牌号</replace>
+      <replace>after_oil</replace>
+      <replace>user_phone</replace>
+      <replace>take_oil</replace>
+      <replace>return_oil</replace>
+      <replace>Shop</replace>
+      <replace>CarType</replace>
+      <replace>add_user_form</replace>
+      <replace>car</replace>
+      <replace>shop</replace>
+      <replace>order</replace>
+      <replace>bac</replace>
+      <replace>peccancy</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Servlets/CarServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/DeleteBacServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/SearchBacServlet.java" />
+        <option value="$PROJECT_DIR$/src/Classes/Bac.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/AddBacServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/BacServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/UpdateBacServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/peccancy_management.js" />
+        <option value="$PROJECT_DIR$/src/Classes/Peccancy.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/AddPeccancyServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/PeccancyServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/DeletePeccancySevlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/DeletePeccancyServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/SearchPeccancyServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/UpdatePeccancyServlet.java" />
+        <option value="$PROJECT_DIR$/web/login.html" />
+        <option value="$PROJECT_DIR$/src/Servlets/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/DeleteAccidentServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/AddAccidentServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/UpdateAccidentServlet.java" />
+        <option value="$PROJECT_DIR$/src/Classes/Accident.java" />
+        <option value="$PROJECT_DIR$/web/js/bac_management.js" />
+        <option value="$PROJECT_DIR$/src/Servlets/AccidentServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/SearchAccidentServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/wallet_management.html.jsp" />
+        <option value="$PROJECT_DIR$/src/Classes/Wallet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/WalletServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/AddWalletServlet.java" />
+        <option value="$PROJECT_DIR$/web/wallet_management.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/bac_management.html" />
+        <option value="$PROJECT_DIR$/web/car_management.html" />
+        <option value="$PROJECT_DIR$/web/order_management.html" />
+        <option value="$PROJECT_DIR$/web/peccancy_management.html" />
+        <option value="$PROJECT_DIR$/web/shop_management.html" />
+        <option value="$PROJECT_DIR$/web/user_management.html" />
+        <option value="$PROJECT_DIR$/web/accident_management.html" />
+        <option value="$PROJECT_DIR$/web/js/order_management.js" />
+        <option value="$PROJECT_DIR$/web/js/accident_management.js" />
+        <option value="$PROJECT_DIR$/web/picture.html" />
+        <option value="$PROJECT_DIR$/src/Servlets/PictureServlet.java" />
+        <option value="$PROJECT_DIR$/src/Classes/CarType.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/UpdateCarTypeServlet.java" />
+        <option value="$PROJECT_DIR$/web/car_type_management.html" />
+        <option value="$PROJECT_DIR$/web/css/picture.css" />
+        <option value="$PROJECT_DIR$/src/Servlets/CarTypeServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/Classes/DatabaseInit.java" />
+        <option value="$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/car_type_management.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545531208772" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28137255" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
+      <recent name="C:\Users\Yusion\IdeaProjects\Management\web\assets" />
+      <recent name="C:\Users\Yusion\Desktop\Management\web\css" />
+      <recent name="C:\Users\Yusion\Desktop\Management\web" />
+      <recent name="C:\Users\Yusion\Desktop\Management\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.82">
+    <configuration name="Tomcat 7.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="Management:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="Management:war exploded2">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_12_Management" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57478" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Management:war exploded" />
+          <artifact name="Management:war exploded2" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="car_type_management.html (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/car_type_management.html" />
+      <deployment>
+        <artifact name="Management:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="car_type_management_html_(1)_Management" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Management:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="car_type_management.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/car_type_management.html" />
+      <deployment>
+        <artifact name="Management:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="car_type_management_html_Management" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Management:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
+      <deployment>
+        <artifact name="Management:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_html_Management_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56088" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Management:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="login.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.html" />
+      <deployment>
+        <artifact name="Management:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="login_html_Management_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58326" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Management:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="picture.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/picture.html" />
+      <deployment>
+        <artifact name="Management:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="picture_html_Management" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Management:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.82" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.car_type_management.html" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.picture.html" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.car_type_management.html (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.login.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.login.html" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.car_type_management.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.picture.html" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.car_type_management.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c079a821-b035-4b32-a2c3-fcd25da320de" name="Default Changelist" comment="" />
+      <created>1542710349769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542710349769</updated>
+      <workItem from="1542710356286" duration="62000" />
+      <workItem from="1542710455385" duration="10799000" />
+      <workItem from="1542722317580" duration="1277000" />
+      <workItem from="1542723671823" duration="756000" />
+      <workItem from="1542727512913" duration="763000" />
+      <workItem from="1542728341670" duration="182000" />
+      <workItem from="1542728587549" duration="1801000" />
+      <workItem from="1542770674675" duration="2971000" />
+      <workItem from="1542773701473" duration="2367000" />
+      <workItem from="1542785104655" duration="13444000" />
+      <workItem from="1542864245311" duration="1175000" />
+      <workItem from="1542888757596" duration="13094000" />
+      <workItem from="1542902494200" duration="2730000" />
+      <workItem from="1542938354406" duration="6503000" />
+      <workItem from="1542953980391" duration="6482000" />
+      <workItem from="1542976825208" duration="2758000" />
+      <workItem from="1543063603158" duration="5789000" />
+      <workItem from="1543201395461" duration="3939000" />
+      <workItem from="1543213785766" duration="216000" />
+      <workItem from="1543219399938" duration="3655000" />
+      <workItem from="1543223565920" duration="176000" />
+      <workItem from="1543234786689" duration="10111000" />
+      <workItem from="1543297841464" duration="3241000" />
+      <workItem from="1543634730337" duration="2905000" />
+      <workItem from="1543638482940" duration="56000" />
+      <workItem from="1543646882769" duration="3562000" />
+      <workItem from="1543650641142" duration="1054000" />
+      <workItem from="1543652453303" duration="820000" />
+      <workItem from="1543659576557" duration="42000" />
+      <workItem from="1543659790275" duration="1132000" />
+      <workItem from="1543661462926" duration="239000" />
+      <workItem from="1543661803009" duration="2271000" />
+      <workItem from="1543664382690" duration="486000" />
+      <workItem from="1543665474648" duration="1070000" />
+      <workItem from="1543667586755" duration="587000" />
+      <workItem from="1543668659449" duration="495000" />
+      <workItem from="1543675775154" duration="2224000" />
+      <workItem from="1543716437234" duration="311000" />
+      <workItem from="1543719580569" duration="2014000" />
+      <workItem from="1543725527611" duration="1182000" />
+      <workItem from="1543795244406" duration="117000" />
+      <workItem from="1543818324270" duration="448000" />
+      <workItem from="1543819350505" duration="1865000" />
+      <workItem from="1543835704055" duration="5193000" />
+      <workItem from="1543846463130" duration="5449000" />
+      <workItem from="1543906195138" duration="4697000" />
+      <workItem from="1543913444111" duration="4789000" />
+      <workItem from="1543921283450" duration="10871000" />
+      <workItem from="1543934957374" duration="263000" />
+      <workItem from="1543997733728" duration="747000" />
+      <workItem from="1544086259981" duration="4421000" />
+      <workItem from="1544104618545" duration="3575000" />
+      <workItem from="1544148000939" duration="6905000" />
+      <workItem from="1544163912342" duration="6586000" />
+      <workItem from="1544280210821" duration="5346000" />
+      <workItem from="1544361701673" duration="1882000" />
+      <workItem from="1544419697911" duration="3762000" />
+      <workItem from="1544431396309" duration="83000" />
+      <workItem from="1544514954457" duration="13913000" />
+      <workItem from="1544589421835" duration="2329000" />
+      <workItem from="1544604170699" duration="4109000" />
+      <workItem from="1544610898437" duration="6282000" />
+      <workItem from="1544621003938" duration="4485000" />
+      <workItem from="1544665853928" duration="2526000" />
+      <workItem from="1544676177325" duration="1779000" />
+      <workItem from="1544694003475" duration="11541000" />
+      <workItem from="1544752780647" duration="2670000" />
+      <workItem from="1544779516467" duration="2000" />
+      <workItem from="1544780314948" duration="3147000" />
+      <workItem from="1544784589335" duration="1678000" />
+      <workItem from="1545012804284" duration="5917000" />
+      <workItem from="1545282787897" duration="2490000" />
+      <workItem from="1545442860939" duration="8350000" />
+      <workItem from="1545466844824" duration="1097000" />
+      <workItem from="1545472918993" duration="1365000" />
+      <workItem from="1545474441438" duration="13678000" />
+      <workItem from="1545529933916" duration="1710000" />
+      <workItem from="1545534282453" duration="40000" />
+      <workItem from="1545534564584" duration="8258000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加了处理订单时的操作">
+      <created>1543070140861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543070140861</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加了处理门店的功能，同时根据最新的数据库重命名了一些属性以及方法。">
+      <created>1543236603343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543236603343</updated>
+    </task>
+    <task id="LOCAL-00003" summary="开始使用 bootstrap 来设置网页显示格式，并尝试使用 bootstrap table 插件来设置表格显示格式。">
+      <created>1543820910641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543820910641</updated>
+    </task>
+    <task id="LOCAL-00004" summary="使用了 bootstrap editable 插件来进行表格元素的更改，通过 Ajax 传递给后台，将无用的 css 配置删去了，以及其余一些小改进。">
+      <created>1543840900611</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543840900611</updated>
+    </task>
+    <task id="LOCAL-00005" summary="使用 bootstrap modal 来设置添加用户时的模拟框，辅以 bootstrap validator 来限制模拟框的输入。">
+      <created>1543933798480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543933798481</updated>
+    </task>
+    <task id="LOCAL-00006" summary="认为“是否认证”的列无必要显示，因为只要判断身份证号是不是空的就可以了。同时添加用户信息删除功能，并且将 js 代码移到 js 文件夹中，命名为 user_management.js 了。">
+      <created>1544105548024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544105548024</updated>
+    </task>
+    <task id="LOCAL-00007" summary="重写了车辆管理的相关页面及 js 代码，通过 bootstrap-select 来实现下拉栏的显示。以及其余一些小改动。">
+      <created>1544170337263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544170337263</updated>
+    </task>
+    <task id="LOCAL-00008" summary="重写了车辆类型管理的相关页面及 js 代码。以及其余一些小改动。">
+      <created>1544363467046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544363467046</updated>
+    </task>
+    <task id="LOCAL-00009" summary="重写了服务点管理的相关页面及 js 代码。以及其余一些小改动。">
+      <created>1544423404473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544423404473</updated>
+    </task>
+    <task id="LOCAL-00010" summary="重写了订单管理的相关页面及 js 代码。不过存在 bootstrap validator 无法验证采用了 bootstrap datetimepicker 的文本框内容的 bug。完善了更改订单时的逻辑，以及其余一些小改动。">
+      <created>1544617107251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544617107251</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加违约记录处理功能，以及一些小改动。">
+      <created>1544625312306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544625312306</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加违章记录处理功能。">
+      <created>1544668134290</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544668134290</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="279106000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37964237" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4869326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28917608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加了处理订单时的操作" />
+    <MESSAGE value="添加了处理门店的功能，同时根据最新的数据库重命名了一些属性以及方法。" />
+    <MESSAGE value="开始使用 bootstrap 来设置网页显示格式，并尝试使用 bootstrap table 插件来设置表格显示格式。" />
+    <MESSAGE value="使用了 bootstrap editable 插件来进行表格元素的更改，通过 Ajax 传递给后台，将无用的 css 配置删去了，以及其余一些小改进。" />
+    <MESSAGE value="使用 bootstrap modal 来设置添加用户时的模拟框，辅以 bootstrap validator 来限制模拟框的输入。" />
+    <MESSAGE value="认为“是否认证”的列无必要显示，因为只要判断身份证号是不是空的就可以了。同时添加用户信息删除功能，并且将 js 代码移到 js 文件夹中，命名为 user_management.js 了。" />
+    <MESSAGE value="重写了车辆管理的相关页面及 js 代码，通过 bootstrap-select 来实现下拉栏的显示。以及其余一些小改动。" />
+    <MESSAGE value="重写了车辆类型管理的相关页面及 js 代码。以及其余一些小改动。" />
+    <MESSAGE value="重写了服务点管理的相关页面及 js 代码。以及其余一些小改动。" />
+    <MESSAGE value="重写了订单管理的相关页面及 js 代码。不过存在 bootstrap validator 无法验证采用了 bootstrap datetimepicker 的文本框内容的 bug。完善了更改订单时的逻辑，以及其余一些小改动。" />
+    <MESSAGE value="添加违约记录处理功能，以及一些小改动。" />
+    <MESSAGE value="添加违章记录处理功能。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加违章记录处理功能。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/CarTypeServlet.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AccidentServlet.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AddCarServlet.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AddCarServlet.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AddCarServlet.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Servlets/UpdateCarTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/CarServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/Wallet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Classes/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AddOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeleteWalletServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Servlets/SearchWalletServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Servlets/UpdateWallteServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Servlets/WalletServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AddWalletServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/wallet_management.html" />
+    <entry file="file://$PROJECT_DIR$/web/bac_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/peccancy_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/shop_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/accident_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="89" column="105" lean-forward="true" selection-start-line="89" selection-start-column="105" selection-end-line="89" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1113">
+          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeleteCarServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeleteOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeletePeccancyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeleteBacServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/UpdateAccidentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeleteAccidentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AddAccidentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/car_picture.html" />
+    <entry file="file://$PROJECT_DIR$/web/js/user_management.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/picture.html" />
+    <entry file="file://$PROJECT_DIR$/src/Servlets/PictureServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Servlets/DeleteCarTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/SearchCarTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/UpdateCarTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/car_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/picture.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AddBacServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <marker date="1544624470000" expanded="true" signature="1157:1221" ph="insert into car.bac... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/CarType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/accident_management.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="102" column="38" lean-forward="false" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/CarTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1545474198000" expanded="true" signature="1035:1079" ph="select * fro... car_type" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/order_management.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6192">
+          <caret line="429" column="1" lean-forward="true" selection-start-line="429" selection-start-column="1" selection-end-line="429" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="1005" column="19" lean-forward="false" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AddCarServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1544169832000" expanded="true" signature="1292:1394" ph="insert into car.car... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/car_type_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="78" column="50" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssh1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AddCarTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <marker date="1545541213000" expanded="true" signature="2267:2386" ph="insert into car.car_type... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/AccidentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1544754644000" expanded="true" signature="1038:1086" ph="select * fro... accident" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/DatabaseInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/car_type_management.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="383" column="35" lean-forward="true" selection-start-line="383" selection-start-column="35" selection-end-line="383" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Management:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28137255" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28137255" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28137255" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28137255" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Management</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28137255" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servlet-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28137255" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

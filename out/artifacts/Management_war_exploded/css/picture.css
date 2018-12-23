@@ -1,0 +1,27 @@
+#user-photo {
+    width:300px;
+    height:300px;
+    margin-top: 10px;
+}
+#photo {
+    max-width:100%;
+    max-height:350px;
+}
+.img-preview-box {
+    text-align: center;
+}
+.img-preview-box > div {
+    display: inline-block;;
+    margin-right: 10px;
+}
+.img-preview {
+    overflow: hidden;
+}
+.img-preview-box .img-preview-lg {
+    width: 150px;
+    height: 150px;
+}
+.img-preview-box .img-preview-md {
+    width: 100px;
+    height: 100px;
+}
